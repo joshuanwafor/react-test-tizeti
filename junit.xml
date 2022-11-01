@@ -1,0 +1,27 @@
+<testsuites name="jest tests" tests="6" failures="1" time="1.928">
+  <testsuite name="Hacker Dormitory" errors="0" failures="1" skipped="0" timestamp="2022-11-01T15:21:50" time="1.928" tests="6">
+    <testcase classname="Hacker Dormitory should add valid students in Residents list" name="Hacker Dormitory should add valid students in Residents list" time="0.119">
+    </testcase>
+    <testcase classname="Hacker Dormitory should add valid students without case sensitivity" name="Hacker Dormitory should add valid students without case sensitivity" time="0.033">
+    </testcase>
+    <testcase classname="Hacker Dormitory should clear the input fields after adding a new student" name="Hacker Dormitory should clear the input fields after adding a new student" time="0.02">
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student who is not in the list" name="Hacker Dormitory should show error on trying to add a student who is not in the list" time="0.03">
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student whose validity has expired" name="Hacker Dormitory should show error on trying to add a student whose validity has expired" time="0.028">
+    </testcase>
+    <testcase classname="Hacker Dormitory should hold the correct list and error message after series of Students addition" name="Hacker Dormitory should hold the correct list and error message after series of Students addition" time="0.06">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;talisk&quot;
+Received: &quot;adam&quot;
+    at Object.&lt;anonymous&gt; (/home/agu/Desktop/test/react-test/src/App.test.js:116:56)
+    at Object.asyncJestTest (/home/agu/Desktop/test/react-test/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/agu/Desktop/test/react-test/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/agu/Desktop/test/react-test/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/agu/Desktop/test/react-test/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
